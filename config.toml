@@ -1,0 +1,15 @@
+[domain]
+host = "2lib.org"
+
+[htmltags]
+
+[htmltags.download_button]
+href = "/dl/"
+class = "addDownloadedBook"
+tag = "a"
+full_class = "btn btn-primary dlButton addDownloadedBook"
+text = "Download"
+
+[htmltags.search]
+url = "/s/"
+result_books_url = "/book/"

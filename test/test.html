@@ -1,0 +1,706 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            navigator.sayswho = (function(){
+                var ua= navigator.userAgent, tem, 
+                M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+                if(/trident/i.test(M[1])){
+                    tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+                    return 'IE '+(tem[1] || '');
+                }
+                if(M[1]=== 'Chrome'){
+                    tem= ua.match(/\b(OPR|Edge)\/(\d+)/);
+                    if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
+                }
+                M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+                if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
+                return M.join(' ');
+            })();
+
+            if (false) {
+                window.onerror = function(errorMsg, url, lineNumber) {
+                    const request = new XMLHttpRequest()
+                    request.onreadystatechange = function() {}
+                    request.open('GET', '/papi/user/logJsError/?file=' + encodeURIComponent(url) + '&message=' + encodeURIComponent(errorMsg) + '&line=' + lineNumber + '&client=' + encodeURIComponent(navigator.sayswho))
+                    request.send()
+                }
+            }
+        </script>
+
+        <title>dahigg: free download. Ebooks library. On-line books store on Z-Library</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="dahigg: free download. Ebooks library. On-line books store on Z-Library">
+			<meta name="description" content="dahigg: free download. Ebooks library. On-line books store on Z-Library | Z-Library. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+                        <meta name="alfacoins-site-verification" content="5ef0e7b2483f15ef0e7b2484275ef0e7b24845d_ALFAcoins">
+	
+<!-- CSS SET -->
+<!-- JS SET --> 
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="/search.xml" title="Search for books in the library Z-Library" />
+
+        <link rel="stylesheet" type="text/css" href="/resources/ext/bootstrap/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/paginator3000/paginator3000.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap-rewrite.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/root.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/journal.css" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/spin/spin.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/zlibrary-confirm.css" />
+<script type="text/javascript" src="/resources/ext/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="/resources/ext/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="/resources/ext/jquery.serializeObject.min.js"></script>
+<script type="text/javascript" src="/resources/ext/bootstrap-notify.min.js"></script>
+<script type="text/javascript" src="/resources/ext/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/resources/ext/paginator3000/jquery.paginator.3000.js"></script>
+<script type="text/javascript" src="/resources/ext/underscore.js"></script>
+<script type="text/javascript" src="/resources/ext/spin/spin.js"></script>
+<script type="text/javascript" src="/resources/ext/i18next.min.js"></script>
+<script type="text/javascript" src="/resources/ext/i18nextHttpBackend.min.js"></script>
+<script type="text/javascript" src="/resources/ext/handlebars.min.js"></script>
+<script type="text/javascript" src="/resources/js/handlebars-helpers.js"></script>
+<script type="text/javascript" src="/resources/js/book-comment.js"></script>
+<script type="text/javascript" src="/resources/js/book-temporary.js"></script>
+<script type="text/javascript" src="/resources/js/book.js"></script>
+<script type="text/javascript" src="/resources/js/tags-input.js"></script>
+<script type="text/javascript" src="/resources/js/user.js"></script>
+<script type="text/javascript" src="/resources/js/zlibrary-notify.js"></script>
+<script type="text/javascript" src="/resources/js/zlibrary-request.js"></script>
+<script type="text/javascript" src="/resources/js/zlibrary-response.js"></script>
+<script type="text/javascript" src="/resources/js/zlibrary-spinner.js"></script>
+<script type="text/javascript" src="/resources/js/zlibrary-modal.js"></script>
+<script type="text/javascript" src="/resources/js/zlibrary-model-list.js"></script>
+<script type="text/javascript" src="/resources/js/zlibrary-search.js"></script>
+<script type="text/javascript" src="/resources/js/zlibrary-confirm.js"></script>
+<script type="text/javascript" src="/resources/js/book-dl-obfuscated.js"></script>
+<script type="text/javascript" src="/resources/js/proxy-checker.js"></script>
+<script type="text/javascript" src="/resources/js/domains-checker.js"></script>
+<script type="text/javascript" src="/resources/js/root.js"></script>
+<script type="text/javascript" src="/resources/js/spelling.js"></script>
+
+                
+        
+        <script>
+            
+            const Config = {"domainHost":"2lib.org","BRegion":"highrisk"};
+            const CurrentUser = new User(null)
+            const proxiesToCheck = []; //for google verification
+
+            i18next
+                .use(i18nextHttpBackend)
+                .init({
+                    lng: 'en',
+                    fallbackLng: 'en',
+                    backend: {
+                        loadPath: '/resources/build/locales/{{lng}}'
+                    }
+                })
+
+                    </script>
+    </head>
+
+    <body style="margin:0px;padding:0px;" class="search">
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <style>
+    div#colorBoxes
+    {
+        text-transform: capitalize;
+    }
+
+    div#colorBoxes ul li.active:nth-child(1)
+    {
+        border: 1px solid #378096;
+        box-shadow: 0 0 6px #7DBCCF;
+        border-top: 0px;
+    }
+
+    div#colorBoxes ul li.active:nth-child(2)
+    {
+        border: 1px solid #6e9b41;
+        box-shadow: 0 0 6px #a4e861;
+        border-top: 0px;
+    }
+</style>
+
+
+<div id="colorBoxes" class="darkShadow">
+    <ul>
+        <li style="background: #49afd0;" class="">
+            <a href="/" class="header-main-nav-link" data-mode="books">
+                <span class="hidden-xs">6,758,707 books</span>
+                <span class="visible-xs">books</span>
+            </a>
+        </li>
+
+        <li style="background: #8ecd51;">
+            <a href="https://booksc.org/" class="header-main-nav-link" data-mode="articles">
+                <span class="hidden-xs">80,759,561 articles</span>
+                <span class="visible-xs">articles</span>
+            </a>
+        </li>
+
+        <li style="background: #90a5a8;" class="hidden-xs"><a href="https://z-lib.org">ZLibrary Home</a></li>
+        <li style="background: #90a5a8;" class="visible-xs"><a href="https://z-lib.org">Home</a></li>
+    </ul>
+</div>
+
+        <div role="navigation" class="navbar-default navbar-right" style="background-color: transparent;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" onclick="">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="clear: both;">
+                <ul class="nav navbar-nav navbar-right">
+                                            <li class="dropdown">
+                            <a href="#" id="loginDDLink" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="loginDDLink">
+                                <li><a href="https://singlelogin.me?from=2lib.org">Login</a></li>
+                                <li><a href="https://singlelogin.me/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    
+                    <li>
+                    <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+
+                    
+                    <!-- Auth user menu dropdown -->
+                    
+                    <!-- Search menu dropdown -->
+                    <li class="dropdown"  id="quickSearchMenuDD">
+                        <a href="#" id="quickSearchMenuDD2" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span style="font-size: 120%;" class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </a>
+                        <ul class="dropdown-menu" style="padding: 0; border-top-left-radius: 4px;box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); border: 1px solid rgba(0, 0, 0, .1);">
+                            <li>
+                                <form method="get" action="/s/" style="padding:20px;" name="quickSearch">
+                                    <input id="quickSearchInput" class="form-control" type="text" name="q" placeholder="Search for title, author, ISBN, publisher, md5.." style="border-radius: 4px; border: 1px solid #ddd; width:400px; padding: 6px 10px;height:40px;">
+                                    <button type="submit" style="display: none;"></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <script>
+                        $("#quickSearchMenuDD").on('shown.bs.dropdown', function(e){
+                            if(window.outerWidth > 768){
+                                $('#quickSearchInput').focus();
+                            }
+                        });
+                    </script>
+
+                    <!-- Admin menu dropdown -->
+                    <li class="dropdown">
+                        <a href="#" id="main-menu-dropdown" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                            <span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                                                    </a>
+                        <ul class="dropdown-menu">
+                                                                                    <li class="dropdown-header">Books</li>
+                                                                                        <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/request.php">Book requests</a>
+                                </li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                                                                                <li><a href="/recently.php">Recently Added</a></li>
+                                                        <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Z-Library Project</li>
+                            <li><a href="/top-zlibrarians.php">Top Z-Librarians</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+$("#bs-example-navbar-collapse-1").on('shown.bs.collapse', function(e){
+    $('#main-menu-dropdown').dropdown('toggle');
+    $('#main-menu-dropdown').attr('data-toggle', ''); // make it static
+    
+
+    $("#quickSearchMenuDD2").dropdown('toggle');
+    $('#quickSearchMenuDD2').attr('data-toggle', ''); // make it static
+    //$('#main-menu-dropdown').attr('data-toggle', ''); // make it static
+
+    $("#profileMenu").dropdown('toggle');
+    $('#profileMenu').attr('data-toggle', ''); // make it static
+});
+
+const subdomainPrefix = '';
+const booksDomains = ["ru1lib.org","b-ok.cc","2lib.org","b-ok.xyz","b-ok.global","b-ok.com","3lib.net","4lib.org","1lib.net","1lib.limited"];
+const articlesDomains = ["booksc.org","art1lib.org","art1lib.com","booksc.me"];
+
+const domainCheckSuccess = (domain, mode) => {
+    $('.header-main-nav-link[data-mode="' + mode + '"]').attr('href', '//' + subdomainPrefix + domain)
+}
+
+const domainCheckError = (domain, mode) => {}
+
+DomainsChecker(booksDomains, domainCheckSuccess, domainCheckError, 'books')
+DomainsChecker(articlesDomains, domainCheckSuccess, domainCheckError, 'articles')
+</script>                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+<style>
+    #advSearch{
+        float:left;
+    }
+
+    #searchModeTabs{
+        display:inline-block;
+        position: relative;
+        top:5px;
+        z-index:99;
+        left:20px;
+        font-size: 12px;
+        color: #777;
+    }
+
+    #searchModeTabs li{
+        padding: 0 0 4px 0;
+        display:inline-block;
+    }
+
+    #searchModeTabs li.active,
+    #searchModeTabs li.active a{
+        background: #fff;
+        color: #333;
+    }
+
+    #searchModeTabs li a:hover{
+        color: #333;
+    }
+
+    #searchModeTabs li a
+    {
+        display: block;
+        padding:2px 15px;
+        border: 1px solid #B2B2B2;
+        border-bottom: 0px;
+        text-decoration: none;
+    }
+
+    #searchModeTabs li:nth-child(1) a{
+        border-radius: 3px 0 0 0;
+    }
+
+    #searchModeTabs li:nth-child(2) a{
+        border-radius: 0 3px 0 0;
+    }
+
+    .etcFt{
+        color: #000;
+        background: #f6f6f6;
+        font-size: 12px;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 8px 4px;
+        font-family: monospace;
+    }
+
+    .etcFt b{
+        background: rgba(73, 175, 208, 0.2);
+        display: inline-block;
+        border-color: rgba(73, 175, 208, 0);
+        font-weight: 400;
+    }
+</style>
+
+<div id="searchFormWithLogo">
+    <div style="text-align: center;margin-top: 50px;">
+        <div style="font-size:52px; padding: 0 15px 0px 15px; line-height: 1;">
+            <a href="/" style="text-decoration:none;" id="logoText"><img src="/img/logo.zlibrary.png" style="width:300px;" alt="ZLibary" title="Z-Library"></a>
+        </div>
+        <div class="color4" style="color:#90A5A8;font-weight:400; padding:4px 0 15px 0;font-style: italic;">
+            Part of Z-Library project.            The world's largest ebook library        </div>
+    </div>
+        <div class="cBox1" id="messageBlock" style="margin:0 auto 15px auto; position: relative; padding-right: 50px;">
+        Are you familiar with a high-risk merchant or do you process payments? <a href="javascript://" class="btnShowMerchantPopup">Yes, I am.</a>        <a href="javascript://" data-message="3dbd" class="btnHideAnnouncement">&times;</a>
+    </div>
+
+<div id="merchantPopup" class="hidden">
+    <p>We are always looking for an opportunity to connect new payment methods for our users from different parts of the world.
+    <p>If you are professionally involved in payment processing or have the information about high-risk merchant, contact us via <a href="mailto:support@bookmail.org">support@bookmail.org</a> with the subject line <b>"High-risk merchant"</b>. We look forward to cooperate with you!
+    <p>Please refrain from emailing if you are not familiar with this topic.
+    <p>Thank you!
+    <div class="modal-footer">
+        <button class="btnCloseMerchantPopup">Close</button>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).on('click', '.btnShowMerchantPopup', function() {
+        const merchantModal = new ZLibraryModal({
+            element: 'merchantPopup',
+            container: 'zlibrary-modal-styled',
+        })
+        merchantModal.show()
+    })
+    $(document).on('click', '.btnCloseMerchantPopup', function() {
+        const merchantModal = new ZLibraryModal({
+            element: 'merchantPopup',
+            container: 'zlibrary-modal-styled',
+        })
+        merchantModal.hide()
+    })
+    $(document).on('click', '.btnHideAnnouncement', function() {
+        let cook = getCookie('hiddenMessages');
+        let hidden = cook ? JSON.parse(cook) : [];
+        let messageHash = $(this).data('message');
+
+        if (hidden.indexOf(messageHash) === -1) {
+            hidden.push($(this).data('message'))
+        }
+
+        setCookie('hiddenMessages', JSON.stringify(hidden), 31*24*60*60*1000)
+        $('#messageBlock').hide()
+    })
+</script>
+
+<style type="text/css">
+    .btnHideAnnouncement {
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        font-size: 140%;
+        text-decoration: none;
+        color: #f0ad4e;
+        font-weight: bold;
+    }
+    .btnHideAnnouncement:hover { color: #ffda65; text-decoration: none; }
+</style>
+
+
+    <style>
+        #advSearch-wrapper{
+            margin-top: 4px;
+        }
+        #advSearch-wrapper input,#advSearch-wrapper select{
+            font-size: smaller;
+        }
+    </style>
+    <a name="s"></a>
+
+    <form method="get" id="searchForm" action="/s/">
+        <ul id="searchModeTabs">
+            <li class="active"><a href="">General Search</a></li>
+            <li class=""><a href="/fulltext/"  style="margin-left: -1px;">Fulltext Search</a></li>
+        </ul>
+
+        <div class="b-search-form hover">
+            <div class="b-search-input g-clearfix">
+                <div class="input">
+                    <input type="text" maxlength="200" name="q" id="searchFieldx" value="dahigg" placeholder="Search for title, author, ISBN, publisher, md5.." style="padding-right: 12px;">
+                </div>
+                <div class="button whiteShadow">
+                    <div class="inner">
+                        <button type="submit">
+                            <span class="hidden-xs">search</span>
+                            <span class="glyphicon glyphicon-search visible-xs-block"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="overflow: hidden;padding-bottom: 5px;">
+            <div id="advSearch-wrapper" style="float:left;margin-right: 25px;">
+                <div >
+                    <span id="advSearch-control" style="border-bottom: 1px dashed; color: #777;font-size: 14px;cursor:pointer;">Search options</span>
+                </div>
+                <div style="display:none;" id="advSearch">
+                                            <input type="checkbox" name="e" value="1" id="ftcb" > <label for="ftcb">Exact matching</label>
+                                        <select disabled="" name="yearFrom" ><option value='' selected>Year from</option><option value='2021' >2021</option><option value='2020' >2020</option><option value='2019' >2019</option><option value='2018' >2018</option><option value='2017' >2017</option><option value='2016' >2016</option><option value='2015' >2015</option><option value='2014' >2014</option><option value='2013' >2013</option><option value='2012' >2012</option><option value='2011' >2011</option><option value='2010' >2010</option><option value='2009' >2009</option><option value='2008' >2008</option><option value='2007' >2007</option><option value='2006' >2006</option><option value='2005' >2005</option><option value='2004' >2004</option><option value='2003' >2003</option><option value='2002' >2002</option><option value='2001' >2001</option><option value='2000' >2000</option><option value='1999' >1999</option><option value='1998' >1998</option><option value='1997' >1997</option><option value='1996' >1996</option><option value='1995' >1995</option><option value='1994' >1994</option><option value='1993' >1993</option><option value='1992' >1992</option><option value='1991' >1991</option><option value='1990' >1990</option><option value='1989' >1989</option><option value='1988' >1988</option><option value='1987' >1987</option><option value='1986' >1986</option><option value='1985' >1985</option><option value='1984' >1984</option><option value='1983' >1983</option><option value='1982' >1982</option><option value='1981' >1981</option><option value='1980' >1980</option><option value='1979' >1979</option><option value='1978' >1978</option><option value='1977' >1977</option><option value='1976' >1976</option><option value='1975' >1975</option><option value='1974' >1974</option><option value='1973' >1973</option><option value='1972' >1972</option><option value='1971' >1971</option><option value='1970' >1970</option><option value='1969' >1969</option><option value='1968' >1968</option><option value='1967' >1967</option><option value='1966' >1966</option><option value='1965' >1965</option><option value='1964' >1964</option><option value='1963' >1963</option><option value='1962' >1962</option><option value='1961' >1961</option><option value='1960' >1960</option><option value='1959' >1959</option><option value='1958' >1958</option><option value='1957' >1957</option><option value='1956' >1956</option><option value='1955' >1955</option><option value='1954' >1954</option><option value='1953' >1953</option><option value='1952' >1952</option><option value='1951' >1951</option><option value='1950' >1950</option><option value='1949' >1949</option><option value='1948' >1948</option><option value='1947' >1947</option><option value='1946' >1946</option><option value='1945' >1945</option><option value='1944' >1944</option><option value='1943' >1943</option><option value='1942' >1942</option><option value='1941' >1941</option><option value='1940' >1940</option><option value='1939' >1939</option><option value='1938' >1938</option><option value='1937' >1937</option><option value='1936' >1936</option><option value='1935' >1935</option><option value='1934' >1934</option><option value='1933' >1933</option><option value='1932' >1932</option><option value='1931' >1931</option><option value='1930' >1930</option><option value='1929' >1929</option><option value='1928' >1928</option><option value='1927' >1927</option><option value='1926' >1926</option><option value='1925' >1925</option><option value='1924' >1924</option><option value='1923' >1923</option><option value='1922' >1922</option><option value='1921' >1921</option><option value='1920' >1920</option><option value='1919' >1919</option><option value='1918' >1918</option><option value='1917' >1917</option><option value='1916' >1916</option><option value='1915' >1915</option><option value='1914' >1914</option><option value='1913' >1913</option><option value='1912' >1912</option><option value='1911' >1911</option><option value='1910' >1910</option><option value='1909' >1909</option><option value='1908' >1908</option><option value='1907' >1907</option><option value='1906' >1906</option><option value='1905' >1905</option><option value='1904' >1904</option><option value='1903' >1903</option><option value='1902' >1902</option><option value='1901' >1901</option><option value='1900' >1900</option><option value='1899' >1899</option><option value='1898' >1898</option><option value='1897' >1897</option><option value='1896' >1896</option><option value='1895' >1895</option><option value='1894' >1894</option><option value='1893' >1893</option><option value='1892' >1892</option><option value='1891' >1891</option><option value='1890' >1890</option><option value='1889' >1889</option><option value='1888' >1888</option><option value='1887' >1887</option><option value='1886' >1886</option><option value='1885' >1885</option><option value='1884' >1884</option><option value='1883' >1883</option><option value='1882' >1882</option><option value='1881' >1881</option><option value='1880' >1880</option><option value='1879' >1879</option><option value='1878' >1878</option><option value='1877' >1877</option><option value='1876' >1876</option><option value='1875' >1875</option><option value='1874' >1874</option><option value='1873' >1873</option><option value='1872' >1872</option><option value='1871' >1871</option><option value='1870' >1870</option><option value='1869' >1869</option><option value='1868' >1868</option><option value='1867' >1867</option><option value='1866' >1866</option><option value='1865' >1865</option><option value='1864' >1864</option><option value='1863' >1863</option><option value='1862' >1862</option><option value='1861' >1861</option><option value='1860' >1860</option><option value='1859' >1859</option><option value='1858' >1858</option><option value='1857' >1857</option><option value='1856' >1856</option><option value='1855' >1855</option><option value='1854' >1854</option><option value='1853' >1853</option><option value='1852' >1852</option><option value='1851' >1851</option><option value='1850' >1850</option><option value='1849' >1849</option><option value='1848' >1848</option><option value='1847' >1847</option><option value='1846' >1846</option><option value='1845' >1845</option><option value='1844' >1844</option><option value='1843' >1843</option><option value='1842' >1842</option><option value='1841' >1841</option><option value='1840' >1840</option><option value='1839' >1839</option><option value='1838' >1838</option><option value='1837' >1837</option><option value='1836' >1836</option><option value='1835' >1835</option><option value='1834' >1834</option><option value='1833' >1833</option><option value='1832' >1832</option><option value='1831' >1831</option><option value='1830' >1830</option><option value='1829' >1829</option><option value='1828' >1828</option><option value='1827' >1827</option><option value='1826' >1826</option><option value='1825' >1825</option><option value='1824' >1824</option><option value='1823' >1823</option><option value='1822' >1822</option><option value='1821' >1821</option><option value='1820' >1820</option><option value='1819' >1819</option><option value='1818' >1818</option><option value='1817' >1817</option><option value='1816' >1816</option><option value='1815' >1815</option><option value='1814' >1814</option><option value='1813' >1813</option><option value='1812' >1812</option><option value='1811' >1811</option><option value='1810' >1810</option><option value='1809' >1809</option><option value='1808' >1808</option><option value='1807' >1807</option><option value='1806' >1806</option><option value='1805' >1805</option><option value='1804' >1804</option><option value='1803' >1803</option><option value='1802' >1802</option><option value='1801' >1801</option><option value='1800' >1800</option></select>                    <select disabled="" name="yearTo" ><option value='' selected>Year to</option><option value='2021' >2021</option><option value='2020' >2020</option><option value='2019' >2019</option><option value='2018' >2018</option><option value='2017' >2017</option><option value='2016' >2016</option><option value='2015' >2015</option><option value='2014' >2014</option><option value='2013' >2013</option><option value='2012' >2012</option><option value='2011' >2011</option><option value='2010' >2010</option><option value='2009' >2009</option><option value='2008' >2008</option><option value='2007' >2007</option><option value='2006' >2006</option><option value='2005' >2005</option><option value='2004' >2004</option><option value='2003' >2003</option><option value='2002' >2002</option><option value='2001' >2001</option><option value='2000' >2000</option><option value='1999' >1999</option><option value='1998' >1998</option><option value='1997' >1997</option><option value='1996' >1996</option><option value='1995' >1995</option><option value='1994' >1994</option><option value='1993' >1993</option><option value='1992' >1992</option><option value='1991' >1991</option><option value='1990' >1990</option><option value='1989' >1989</option><option value='1988' >1988</option><option value='1987' >1987</option><option value='1986' >1986</option><option value='1985' >1985</option><option value='1984' >1984</option><option value='1983' >1983</option><option value='1982' >1982</option><option value='1981' >1981</option><option value='1980' >1980</option><option value='1979' >1979</option><option value='1978' >1978</option><option value='1977' >1977</option><option value='1976' >1976</option><option value='1975' >1975</option><option value='1974' >1974</option><option value='1973' >1973</option><option value='1972' >1972</option><option value='1971' >1971</option><option value='1970' >1970</option><option value='1969' >1969</option><option value='1968' >1968</option><option value='1967' >1967</option><option value='1966' >1966</option><option value='1965' >1965</option><option value='1964' >1964</option><option value='1963' >1963</option><option value='1962' >1962</option><option value='1961' >1961</option><option value='1960' >1960</option><option value='1959' >1959</option><option value='1958' >1958</option><option value='1957' >1957</option><option value='1956' >1956</option><option value='1955' >1955</option><option value='1954' >1954</option><option value='1953' >1953</option><option value='1952' >1952</option><option value='1951' >1951</option><option value='1950' >1950</option><option value='1949' >1949</option><option value='1948' >1948</option><option value='1947' >1947</option><option value='1946' >1946</option><option value='1945' >1945</option><option value='1944' >1944</option><option value='1943' >1943</option><option value='1942' >1942</option><option value='1941' >1941</option><option value='1940' >1940</option><option value='1939' >1939</option><option value='1938' >1938</option><option value='1937' >1937</option><option value='1936' >1936</option><option value='1935' >1935</option><option value='1934' >1934</option><option value='1933' >1933</option><option value='1932' >1932</option><option value='1931' >1931</option><option value='1930' >1930</option><option value='1929' >1929</option><option value='1928' >1928</option><option value='1927' >1927</option><option value='1926' >1926</option><option value='1925' >1925</option><option value='1924' >1924</option><option value='1923' >1923</option><option value='1922' >1922</option><option value='1921' >1921</option><option value='1920' >1920</option><option value='1919' >1919</option><option value='1918' >1918</option><option value='1917' >1917</option><option value='1916' >1916</option><option value='1915' >1915</option><option value='1914' >1914</option><option value='1913' >1913</option><option value='1912' >1912</option><option value='1911' >1911</option><option value='1910' >1910</option><option value='1909' >1909</option><option value='1908' >1908</option><option value='1907' >1907</option><option value='1906' >1906</option><option value='1905' >1905</option><option value='1904' >1904</option><option value='1903' >1903</option><option value='1902' >1902</option><option value='1901' >1901</option><option value='1900' >1900</option><option value='1899' >1899</option><option value='1898' >1898</option><option value='1897' >1897</option><option value='1896' >1896</option><option value='1895' >1895</option><option value='1894' >1894</option><option value='1893' >1893</option><option value='1892' >1892</option><option value='1891' >1891</option><option value='1890' >1890</option><option value='1889' >1889</option><option value='1888' >1888</option><option value='1887' >1887</option><option value='1886' >1886</option><option value='1885' >1885</option><option value='1884' >1884</option><option value='1883' >1883</option><option value='1882' >1882</option><option value='1881' >1881</option><option value='1880' >1880</option><option value='1879' >1879</option><option value='1878' >1878</option><option value='1877' >1877</option><option value='1876' >1876</option><option value='1875' >1875</option><option value='1874' >1874</option><option value='1873' >1873</option><option value='1872' >1872</option><option value='1871' >1871</option><option value='1870' >1870</option><option value='1869' >1869</option><option value='1868' >1868</option><option value='1867' >1867</option><option value='1866' >1866</option><option value='1865' >1865</option><option value='1864' >1864</option><option value='1863' >1863</option><option value='1862' >1862</option><option value='1861' >1861</option><option value='1860' >1860</option><option value='1859' >1859</option><option value='1858' >1858</option><option value='1857' >1857</option><option value='1856' >1856</option><option value='1855' >1855</option><option value='1854' >1854</option><option value='1853' >1853</option><option value='1852' >1852</option><option value='1851' >1851</option><option value='1850' >1850</option><option value='1849' >1849</option><option value='1848' >1848</option><option value='1847' >1847</option><option value='1846' >1846</option><option value='1845' >1845</option><option value='1844' >1844</option><option value='1843' >1843</option><option value='1842' >1842</option><option value='1841' >1841</option><option value='1840' >1840</option><option value='1839' >1839</option><option value='1838' >1838</option><option value='1837' >1837</option><option value='1836' >1836</option><option value='1835' >1835</option><option value='1834' >1834</option><option value='1833' >1833</option><option value='1832' >1832</option><option value='1831' >1831</option><option value='1830' >1830</option><option value='1829' >1829</option><option value='1828' >1828</option><option value='1827' >1827</option><option value='1826' >1826</option><option value='1825' >1825</option><option value='1824' >1824</option><option value='1823' >1823</option><option value='1822' >1822</option><option value='1821' >1821</option><option value='1820' >1820</option><option value='1819' >1819</option><option value='1818' >1818</option><option value='1817' >1817</option><option value='1816' >1816</option><option value='1815' >1815</option><option value='1814' >1814</option><option value='1813' >1813</option><option value='1812' >1812</option><option value='1811' >1811</option><option value='1810' >1810</option><option value='1809' >1809</option><option value='1808' >1808</option><option value='1807' >1807</option><option value='1806' >1806</option><option value='1805' >1805</option><option value='1804' >1804</option><option value='1803' >1803</option><option value='1802' >1802</option><option value='1801' >1801</option><option value='1800' >1800</option></select>                    <select name="language" disabled><option value="">Any Language</option><option value="afrikaans">Afrikaans</option><option value="albanian">Albanian</option><option value="arabic">Arabic</option><option value="armenian">Armenian</option><option value="azerbaijani">Azerbaijani</option><option value="bashkir">Bashkir</option><option value="belarusian">Belarusian</option><option value="bengali">Bengali</option><option value="berber">Berber</option><option value="bulgarian">Bulgarian</option><option value="catalan">Catalan</option><option value="chinese" style="font-weight: bold;">Chinese</option><option value="crimean">Crimean Tatar</option><option value="croatian">Croatian</option><option value="czech">Czech</option><option value="danish">Danish</option><option value="dutch" style="font-weight: bold;">Dutch</option><option value="english" style="font-weight: bold;">English</option><option value="esperanto">Esperanto</option><option value="estonian">Estonian</option><option value="finnish">Finnish</option><option value="french" style="font-weight: bold;">French</option><option value="georgian">Georgian</option><option value="german" style="font-weight: bold;">German</option><option value="greek">Greek</option><option value="gujarati">Gujarati</option><option value="hebrew">Hebrew</option><option value="hindi">Hindi</option><option value="hungarian">Hungarian</option><option value="icelandic">Icelandic</option><option value="indigenous">Indigenous</option><option value="indonesian">Indonesian</option><option value="italian" style="font-weight: bold;">Italian</option><option value="japanese">Japanese</option><option value="kannada">Kannada</option><option value="kazakh">Kazakh</option><option value="kirghiz">Kirghiz</option><option value="korean">Korean</option><option value="latin">Latin</option><option value="latvian">Latvian</option><option value="lithuanian">Lithuanian</option><option value="malayalam">Malayalam</option><option value="marathi">Marathi</option><option value="mongolian">Mongolian</option><option value="nepali">Nepali</option><option value="norwegian">Norwegian</option><option value="odia">Odia</option><option value="persian">Persian</option><option value="polish">Polish</option><option value="portuguese" style="font-weight: bold;">Portuguese</option><option value="romanian">Romanian</option><option value="russian" style="font-weight: bold;">Russian</option><option value="sanskrit">Sanskrit</option><option value="serbian">Serbian</option><option value="sinhala">Sinhala</option><option value="slovak">Slovak</option><option value="slovenian">Slovenian</option><option value="somali">Somali</option><option value="spanish" style="font-weight: bold;">Spanish</option><option value="swahili">Swahili</option><option value="swedish">Swedish</option><option value="tajik">Tajik</option><option value="tamil">Tamil</option><option value="tatar">Tatar</option><option value="telugu">Telugu</option><option value="thai">Thai</option><option value="turkish">Turkish</option><option value="ukrainian">Ukrainian</option><option value="urdu">Urdu</option><option value="uzbek">Uzbek</option><option value="vietnamese">Vietnamese</option></select>                    <select disabled="" name="extension" ><option value='' selected>Any Extension</option><option value='pdf' >pdf</option><option value='epub' >epub</option><option value='djvu' >djvu</option><option value='fb2' >fb2</option><option value='txt' >txt</option><option value='rar' >rar</option><option value='mobi' >mobi</option><option value='lit' >lit</option><option value='doc' >doc</option><option value='rtf' >rtf</option><option value='azw3' >azw3</option></select>                    <span class="search-settings">
+                        <a href="#" class="saving-search-settings hidden"
+                           data-title_save="Save params as default"
+                           data-title_saved="Saved"
+                           onclick="ZLibrarySearch.saveSearchSettings(); return false;">
+                            <span class="glyphicon"></span>
+                        </a>
+                        <a href="#" class="clear-search-settings hidden"
+                           title="Reset filters"
+                           onclick="ZLibrarySearch.clearFilters(); return false;">
+                            <span class="glyphicon glyphicon glyphicon-remove"></span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+                            <!-- fb like here -->
+                    </div>
+    </form>
+</div>
+
+<script>
+    document.getElementById("searchFieldx").focus();
+
+    ZLibrarySearch.init();
+
+    $("#searchForm").submit(function ()
+    {
+        $(this).children('select[value=""]').attr("disabled", "disabled");
+        $.each($("#searchForm select, #searchForm input"), function (key, value) {
+            if ($(this).val() == "") {
+                $(this).attr("disabled", "disabled");
+            }
+        });
+        return true;
+    });
+
+    $('#ftcb2').popover({
+        placement: 'bottom',
+        html: true
+    });
+
+    $('#ftcb1').popover({
+        placement: 'bottom',
+        html: true
+    });
+
+
+    function initializePopoverHelper()
+    {
+        if($('#ftcb').length)
+        {
+            if($('#ftcb').is(':checked')){
+                wordsContent = 'Search for %s containing ALL specified terms ANYWHERE in the text. <div class="etcFt">..text text text <b>my</b> ..text text text text text .. <b>search</b> ..text text text text text.. <b>query</b>.. text text text <b>works</b> ..text text.. <b>good</b> text..</div>'
+                phraseContent = 'Search for %s <i>exactly</i> match specified phrase. <div class="etcFt">..text text text text text text.. <b>my search query works good</b> ..text text text text text text text text text text text text..</div>'
+            }else{
+                wordsContent = 'Search for %s containing <i>most of</i> specified terms (>75%) ANYWHERE in the text. <div class="etcFt">..text text text <b>my</b> ..text text text text text .. <b>search</b> ..text text text text text.. <b>query</b> ..text text.. <b>works</b> ..text text..</div>'
+                phraseContent = 'Search for %s containing ALL specified words that are <i>next to each other</i> and in the <i>same order</i>. <div class="etcFt">..text text text text text text.. <b>my</b> long <b>search query</b> will <b>works good</b> ..text text text text text text text text text text text text..</div>'
+            }
+            $('#ftcb2').data('bs.popover').options.content = wordsContent;
+            $('#ftcb1').data('bs.popover').options.content = phraseContent;
+
+            if($('#ftcb2').is(':checked')){$('#ftcb1').popover('hide');$('#ftcb2').popover('show');}
+            if($('#ftcb1').is(':checked')){$('#ftcb2').popover('hide');$('#ftcb1').popover('show');}
+        }
+    }
+</script>
+<style>
+    #subprojectsSearch li.orderFilter{
+        float: right;
+        margin: 0;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+
+    .orderFilter option{
+        color: #000;
+    }
+</style>
+<script>
+    $(function () {
+        $('.lazy').Lazy({
+            effect: 'fadeIn',
+            effectTime: 1000,
+            beforeLoad: function (element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function (element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script>
+
+
+
+<ul id="subprojectsSearch" style="margin-top:40px;">
+
+            <li class="active" style="border-radius:5px 0 0 0;">Books <span class="totalCounter">(0)</span></li>
+            <li class="searchServiceStats" data-contentmode="articles" style="border-top: 1px solid #ccc;border-right: 1px solid #ccc; border-radius:0 5px 0 0;">
+                <a href="https://booksc.org/s/?q=dahigg">Articles</a> <span class="totalCounter"></span>
+            </li><li class="orderFilter">
+            <span class="dropdown" style="text-align: right;">
+                <a data-toggle="dropdown" href="#" style="color: #49afd0;">Most Popular <b class="caret"></b></a>
+                <ul class="dropdown-menu"> <li class="active"><a href="/s/dahigg?order=popular" data-type="popular"><b>Most Popular</b></a></li><li><a href="/s/dahigg?order=bestmatch" data-type="bestmatch"><b>Best Match</b></a></li><li><a href="/s/dahigg?order=date" data-type="date">Recently added</a></li><li><a href="/s/dahigg?order=titleA" data-type="titleA">By Title (A-Z)</a></li><li><a href="/s/dahigg?order=title" data-type="title">By Title (Z-A)</a></li><li><a href="/s/dahigg?order=year" data-type="year">By Year</a></li><li><a href="/s/dahigg?order=filesize" data-type="filesize">File Size ↓</a></li><li><a href="/s/dahigg?order=filesizeA" data-type="filesizeA">File Size ↑</a></li></ul>
+            </span>
+        
+            <span class="dropdown" style="text-align: right; right: 0; left: auto; margin-left: 20px">
+                <a data-toggle="dropdown" href="#" style="color: #49AFD0">List <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel"><li active><a href="javascript:;" onclick="ZLibrarySearch.switchView(); return false;">List</a></li>
+                     <li ><a href="javascript:;" onclick="ZLibrarySearch.switchView('table'); return false;">Table</a></li>
+                </ul>
+            </span>
+        </li></ul>
+
+<div id="searchResultBox"><div class="notFound color3">On your request nothing has been found. Do you want to <span class="plink zalertLink" data-toggle="modal" data-target="#zalertDialog">create a ZAlert</a> on this query?</div></div>
+<!-- Modal -->
+<div class="modal fade" id="zalertDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Create a new ZAlert</h4>
+            </div>
+            <div class="modal-body">
+                                    <div style="margin: 0 0 25px 0; border-left: 2px solid #49AFD0; padding-left: 25px;">ZAlerts allow you to be notified by email about the availability of new books according to your search query. A search query can be a title of the book, a name of the author, ISBN or anything else. <a href="/msgn/zalerts" target="_blank">Read more about ZAlerts</a>.</div>
+                                                    <div class="form-group">
+                        <input id="zalertEmail" type="text" class="form-control" placeholder="Your e-mail" name="email"/>
+                    </div>
+                                <div class="form-group ">
+                    <input id="zalertQuery" type="text" value="dahigg"  class="form-control" placeholder="Author / ISBN / Topic / Any search query" />
+                    <div style="color:#888; font-size: 80%;">Author / ISBN / Topic / Any search query</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary zalertCreateButton">Create</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('.zalertCreateButton').click(function () {
+        $('.zalertCreateButton').attr('disabled', '');
+        var dataToSend = {query: $("#zalertQuery").val()};
+        dataToSend.email = $("#zalertEmail").val();
+        $.RPC('ZAlerts::rpc_create', dataToSend).done(function () {
+            $('.zalertCreateButton').removeAttr('disabled');
+            $('#zalertDialog').modal('hide');
+            alert('ZAlert successfully created');
+            $("#zalertQuery").val('');
+            if (window.location.pathname == '/users/zalerts.php' || window.location.pathname == '/zalerts.php')
+            {
+                location.reload();
+            }
+        }).fail(function (a, b) {
+            $('.zalertCreateButton').removeAttr('disabled');
+            alert(b.errors.message());
+        });
+    });
+</script>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-sm-7 footer-copyright">
+        <i>
+            Free ebooks since 2009.
+            <a class="footer-mailto" href="mailto: support@bookmail.org">
+                support@bookmail.org            </a>
+        </i>
+
+        <span class="hidden-xs" style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+        <span class="hidden-xs" style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+    </div>
+
+    <div class="col-sm-5">
+        <div class="pull-right footer-nav-right" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="visible-xs-block"><a href="/faq.php">FAQ</a></li>
+                <li class="visible-xs-block"><a href="/blog/">Blog</a></li>
+                <!--
+                 <li class="telegram-link">
+                    <a href="https://t.me/zlibrarybot" target="_blank" title="telegram:zlibrarybot">
+                        <img src="/img/icon-telegram.svg" class="colored" width="22">
+                        <img src="/img/icon-telegram-gray.png" class="gray" width="22">
+                    </a>
+                </li>
+                 -->
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup" style="white-space: nowrap;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu language-list">
+                        <li><a href="//2lib.org/s/dahigg">English</a></li><li><a href="//ru.2lib.org/s/dahigg">Русский</a></li><li><a href="//es.2lib.org/s/dahigg">Español</a></li><li><a href="//it.2lib.org/s/dahigg">Italiano</a></li><li><a href="//el.2lib.org/s/dahigg">ελληνικά</a></li><li><a href="//ar.2lib.org/s/dahigg">اللغة العربية</a></li><li><a href="//id.2lib.org/s/dahigg">Bahasa Indonesia</a></li><li><a href="//my.2lib.org/s/dahigg">Bahasa Malaysia</a></li><li><a href="//in.2lib.org/s/dahigg">हिन्दी</a></li><li><a href="//de.2lib.org/s/dahigg">Deutsch</a></li><li><a href="//fr.2lib.org/s/dahigg">Français</a></li><li><a href="//pt.2lib.org/s/dahigg">Português</a></li><li><a href="//ua.2lib.org/s/dahigg">Українська</a></li><li><a href="//pl.2lib.org/s/dahigg">Polski</a></li><li><a href="//zh.2lib.org/s/dahigg">汉语</a></li><li><a href="//jp.2lib.org/s/dahigg">日本語</a></li><li><a href="//vn.2lib.org/s/dahigg">Tiếng Việt</a></li><li><a href="//az.2lib.org/s/dahigg">Azərbaycan Dili</a></li><li><a href="//am.2lib.org/s/dahigg">Հայոց լեզու</a></li><li><a href="//th.2lib.org/s/dahigg">ภาษาไทย</a></li><li><a href="//tr.2lib.org/s/dahigg">Türk Dili</a></li><li><a href="//ge.2lib.org/s/dahigg">ქართველი</a></li><li><a href="//bd.2lib.org/s/dahigg">বাংলা</a></li><li><a href="//af.2lib.org/s/dahigg">پښتو</a></li><li><a href="//te.2lib.org/s/dahigg">తెలుగు</a></li><li><a href="//ur.2lib.org/s/dahigg">اردو</a></li><li><a href="//kr.2lib.org/s/dahigg">한국어</a></li><li><a href="//rs.2lib.org/s/dahigg">Srpsku</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="modal fade" id="zlibrary-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header hidden">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body" style="position: relative; min-height: 80px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="zlibrary-modal-styled" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header hidden">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h1 class="modal-title"></h1>
+                    </div>
+                    <div class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ggAdditionalHtml -->
+        <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe><script></script>        <!-- /ggAdditionalHtml -->
+        
+                
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+    </body>
+</html>
+
