@@ -117,7 +117,6 @@ for link in allinks
 			@show result
 			push!(allinks1, result)
 		end
-		push!(allinks1, link1)
 	end
 end
 
